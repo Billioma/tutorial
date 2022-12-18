@@ -1,4 +1,4 @@
-# tutorial
+# yumma
 
 ## Project setup
 ```
