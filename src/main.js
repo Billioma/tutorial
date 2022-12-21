@@ -9,7 +9,9 @@ import {
   RiDoubleQuotesL,
   BiBookmarkFill,
   BiArrowUpRight,
+  BiLightbulbFill,
   FaFacebookF,
+  RiLeafFill,
   FaInstagram,
   FaTwitter,
   PrArrowUpRight,
@@ -25,9 +27,11 @@ addIcons(
   FaYoutube,
   FaFacebookF,
   PrArrowUpRight,
+  RiLeafFill,
   FaTwitter,
   FaInstagram,
   BiArrowUpRight,
+  BiLightbulbFill,
   BiBookmarkFill
 );
 

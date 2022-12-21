@@ -136,3 +136,18 @@ export const footerIcons = [
     icon: "fa-youtube",
   },
 ];
+
+export const value = [
+  {
+    id: 1,
+    icon: "bi-lightbulb-fill",
+    title: "Vision",
+    text: "Dolor fusce eiit himeanos arcu sapien ultrices faciti ticidunt maximus aptent mus inceptos",
+  },
+  {
+    id: 2,
+    icon: "ri-leaf-fill",
+    title: "Mission",
+    text: "Dolor fusce eiit himeanos arcu sapien ultrices faciti ticidunt maximus aptent mus inceptos",
+  },
+];

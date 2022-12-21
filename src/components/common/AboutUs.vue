@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import Wrapper from "../../Layouts/Wrapper.vue";
+import Wrapper from "../Layouts/Wrapper.vue";
 import { Motion } from "motion/vue";
 
 export default {

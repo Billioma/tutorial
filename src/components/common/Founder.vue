@@ -43,6 +43,7 @@ export default {
   height: 70vh;
   background-repeat: no-repeat;
   padding: 0 0 0 5rem;
+  margin-top: 5rem;
   color: #fff;
   align-content: flex-start;
   justify-content: flex-start;

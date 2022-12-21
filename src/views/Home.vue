@@ -1,26 +1,22 @@
 <template>
   <div>
     <FirstLayer />
-    <SecondLayer />
+    <AboutUs />
     <ThirdLayer />
-    <FourthLayer />
+    <Founder />
   </div>
 </template>
 
 <script>
-import {
-  FirstLayer,
-  SecondLayer,
-  ThirdLayer,
-  FourthLayer,
-} from "../components/data/Home/index";
+import { FirstLayer, ThirdLayer } from "../components/data/Home/index";
+import { Founder, AboutUs } from "../components/common/index";
 
 export default {
   components: {
     FirstLayer,
-    SecondLayer,
+    AboutUs,
     ThirdLayer,
-    FourthLayer,
+    Founder,
   },
 };
 </script>
