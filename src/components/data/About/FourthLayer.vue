@@ -8,7 +8,7 @@
       >
         <div class="container">
           <h5>OUR VALUE</h5>
-          <h1>Taking cooking to the next level</h1>
+          <h1>Taking cooking to the <br /> next level</h1>
           <span
             >Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
             dignissimos nulla excepturi, facere reprehenderit

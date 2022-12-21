@@ -75,7 +75,7 @@ export default {
   line-height: 1.2em;
 }
 img {
-  width: 33rem;
+  width: 37rem;
   border-radius: 5px;
 }
 .us {
