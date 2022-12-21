@@ -3,7 +3,7 @@
     <span class="flex_container gap">
       <Motion
         :initial="{ opacity: 0 }"
-        :animate="{ x: [-250, 0], opacity: 1 }"
+        :inView="{ x: [-250, 0], opacity: 1 }"
         :transition="{ duration: 1 }"
       >
         <div class="container">
@@ -18,7 +18,7 @@
       </Motion>
       <Motion
         :initial="{ x: 0, opacity: 0 }"
-        :animate="{ x: [250, 0], opacity: 1 }"
+        :inView="{ x: [250, 0], opacity: 1 }"
         :transition="{ duration: 1 }"
       >
         <div v-for="item in values" :key="item.id" class="flex flex_container">

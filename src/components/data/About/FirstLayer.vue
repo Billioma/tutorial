@@ -1,13 +1,29 @@
 <template>
   <div class="overflow">
     <div class="header">
-      <div class="flex flex_column">
-        <h1>About Us</h1>
-        <h3>Beyond the boundaries of taste.</h3>
-      </div>
+      <Motion
+        :initial="{ opacity: 0 }"
+        :inView="{ y: [-50, 0], opacity: 1 }"
+        :transition="{ duration: 1 }"
+      >
+        <div class="flex flex_column">
+          <h1>About Us</h1>
+          <h3>Beyond the boundaries of taste.</h3>
+        </div>
+      </Motion>
     </div>
   </div>
 </template>
+
+<script>
+import { Motion } from "motion/vue";
+
+export default {
+  components: {
+    Motion,
+  },
+};
+</script>
 
 <style scoped>
 .header {

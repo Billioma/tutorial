@@ -2,7 +2,7 @@
   <div class="header">
     <Motion
       :initial="{ opacity: 0 }"
-      :animate="{ x: [-250, 0], opacity: 1 }"
+      :inView="{ x: [-250, 0], opacity: 1 }"
       :transition="{ duration: 1 }"
     >
       <div class="container">

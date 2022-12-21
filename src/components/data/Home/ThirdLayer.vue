@@ -3,7 +3,7 @@
     <div>
       <Motion
         :initial="{ opacity: 0 }"
-        :animate="{ y: [-50, 0], opacity: 1 }"
+        :inView="{ y: [-50, 0], opacity: 1 }"
         :transition="{ duration: 1 }"
       >
         <div class="flex_column">
@@ -14,7 +14,7 @@
       </Motion>
       <Motion
         :initial="{ opacity: 0 }"
-        :animate="{ y: [50, 0], opacity: 1 }"
+        :inView="{ y: [50, 0], opacity: 1 }"
         :transition="{ duration: 1 }"
       >
         <div class="grid">
